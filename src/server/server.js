@@ -3,7 +3,7 @@ import Express from 'express';
 
 const app = new Express();
 
-const PATH_STYLES = path.resolve(__dirname, '..client/styles');
+const PATH_STYLES = path.resolve(__dirname, '../client/styles');
 const PATH_DIST   = path.resolve(__dirname, '../../dist');
 
 app.use('/styles', Express.static(PATH_STYLES));
